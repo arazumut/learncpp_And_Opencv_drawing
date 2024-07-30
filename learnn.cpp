@@ -15,6 +15,7 @@ int main()
         for (int j = 0; j < 2; j++)
             cout << dizi[i][j] << " ";
 
+    // Produced By Kamil Umut Araz
 
     int k;
     for (k = 0; k < 10; k++);
