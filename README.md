@@ -35,3 +35,4 @@ Maske, orijinal görüntüye uygulanarak cilt rengi tespit edilen bölgeler çı
 Orijinal görüntü, maske ve sonuç görüntüsü ekranda gösterilir.
 'q' tuşuna basıldığında döngü sonlanır.
 Her iki bölümde de, canlı video akışını alıp, belirli işlemleri gerçekleştirdikten sonra sonuçları ekranda gösterir ve 'q' tuşuna basıldığında program sonlanır.
+
