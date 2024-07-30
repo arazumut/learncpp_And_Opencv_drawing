@@ -10,6 +10,7 @@ Döngü sonunda k değeri 10 olur, çünkü döngü tamamlanmıştır.
 3. Çift Sayıları Yazdırma
 1 ile 21 arasındaki çift sayılar, aralarında virgül olacak şekilde ekrana yazdırılır.
 4. Tek Sayıları Yazdırma
+
 1 ile 21 arasındaki tek sayılar, aralarında virgül olacak şekilde ekrana yazdırılır.
 5. Ekrana "Merhaba" Yazdırma
 Bir while döngüsü kullanılarak ekrana 5 defa "merhaba" yazdırılır.
