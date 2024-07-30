@@ -12,6 +12,8 @@ ix, iy = -1, -1  # Çizim başlangıç noktası
 def draw_circle(event, x, y, flags, param):
     global ix, iy, drawing, img
 
+    # Produced By K. Umut Araz
+
     if event == cv2.EVENT_LBUTTONDOWN:
         drawing = True
         ix, iy = x, y
