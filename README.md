@@ -1,4 +1,6 @@
-Learn Cpp <br>
+  <a href="https://www.cplusplus.com/" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> 
+    </a>Learn Cpp <br>
 1. İki Boyutlu Diziler ve Ekrana Yazdırma
 dizi ve dizi2 adında iki tane 2x3 boyutlarında iki boyutlu dizi tanımlanır.
 İç içe for döngüsü kullanılarak dizi elemanları ekrana yazdırılır.
