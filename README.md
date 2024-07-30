@@ -11,6 +11,7 @@ Web kamerasından video akışı başlatılır.
 Çizim durumunu ve başlangıç noktalarını tanımlayan değişkenler oluşturulur.
 Mouse Callback Fonksiyonu:
 
+
 Fareye tıklandığında, hareket ettirildiğinde ve tıklama bırakıldığında çizim işlemleri gerçekleştirilir.
 cv2.line fonksiyonu kullanılarak çizgiler çizilir.
 Pencere Oluşturma ve Mouse Callback Fonksiyonunu Ayarlama:
