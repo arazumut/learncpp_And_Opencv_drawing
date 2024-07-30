@@ -1,5 +1,37 @@
-
-OpenCV Drawing
+Learn Cpp <br>
+1. İki Boyutlu Diziler ve Ekrana Yazdırma
+dizi ve dizi2 adında iki tane 2x3 boyutlarında iki boyutlu dizi tanımlanır.
+İç içe for döngüsü kullanılarak dizi elemanları ekrana yazdırılır.
+2. For Döngüsü ve Değer Yazdırma
+k değişkeniyle bir for döngüsü çalıştırılır. Döngü bitiminde k değişkeninin değeri ekrana yazdırılır.
+Döngü sonunda k değeri 10 olur, çünkü döngü tamamlanmıştır.
+3. Çift Sayıları Yazdırma
+1 ile 21 arasındaki çift sayılar, aralarında virgül olacak şekilde ekrana yazdırılır.
+4. Tek Sayıları Yazdırma
+1 ile 21 arasındaki tek sayılar, aralarında virgül olacak şekilde ekrana yazdırılır.
+5. Ekrana "Merhaba" Yazdırma
+Bir while döngüsü kullanılarak ekrana 5 defa "merhaba" yazdırılır.
+6. While Döngüsü ile Çift Sayıları Yazdırma
+1 ile 21 arasındaki çift sayılar, while döngüsü kullanılarak aralarında virgül olacak şekilde ekrana yazdırılır.
+7. Break Kullanımı
+Bir for döngüsünde b değişkeni 0'dan 100'e kadar sayar.
+b değişkeni 50 olduğunda döngü break ifadesiyle sonlanır.
+Sonuç olarak, 50'ye kadar olan sayılar yazdırılır ve ardından "i değeri 50 iken döngüden çıkıldı" ifadesi ekrana yazdırılır.
+8. Continue Kullanımı
+Bir for döngüsünde o değişkeni 0'dan 100'e kadar sayar.
+o değişkeni 50 olduğunda continue ifadesiyle o tur atlanır.
+Sonuç olarak, 0'dan 99'a kadar olan sayılar (50 hariç) yazdırılır ve ardından "o değeri 100 iken döngüden çıkıldı" ifadesi ekrana yazdırılır.
+9. Pozitif Sayıların Toplamını Bulma
+Kullanıcıdan 10 adet tam sayı girmesi istenir.
+Girilen sayılardan sadece pozitif olanların toplamı hesaplanır ve ekrana yazdırılır.
+10. Negatif Sayıların Toplamını Bulma
+Kullanıcıdan 15 adet tam sayı girmesi istenir.
+Girilen negatif sayıların toplamı hesaplanır ve ekrana yazdırılır.
+Kodun sonunda kullanıcıdan bir sayı girmesi istenir ve program sona erer. Bu, kullanıcıya programın bitmeden önce bir sayı girme fırsatı verir. <br>
+ <a href="https://www.python.org" target="_blank" rel="noreferrer"> 
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> 
+    </a> 
+OpenCV Drawing <br>
 1. Kısım: Çizim Yapma
 Bu bölüm, web kamerasından alınan canlı görüntü üzerinde fare ile çizim yapmayı sağlar.
 
