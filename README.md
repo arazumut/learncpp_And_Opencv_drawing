@@ -5,6 +5,7 @@ Bu bölüm, web kamerasından alınan canlı görüntü üzerinde fare ile çizi
 
 Kameradan Video Akışını Başlatma:
 
+
 Web kamerasından video akışı başlatılır.
 Çizim Durumu ve Başlangıç Noktası:
 
