@@ -1,4 +1,4 @@
-baştan başlayanlar için c++ kodları
+
 
 1. Kısım: Çizim Yapma
 Bu bölüm, web kamerasından alınan canlı görüntü üzerinde fare ile çizim yapmayı sağlar.
