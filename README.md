@@ -52,7 +52,6 @@ Pencere Oluşturma ve Mouse Callback Fonksiyonunu Ayarlama:
 
 cv2.namedWindow ile bir pencere oluşturulur ve cv2.setMouseCallback ile fare olayları izlenir.
 Sonsuz Döngü:
-
 Kameradan alınan görüntüler üzerinde çizim işlemleri gerçekleştirilir ve görüntü ekranda gösterilir.
 'q' tuşuna basıldığında döngü sonlanır.
 2. Kısım: Cilt Rengi Tespiti
