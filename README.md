@@ -61,7 +61,6 @@ Kameradan Video Akışını Başlatma:
 
 Web kamerasından video akışı başlatılır.
 Sonsuz Döngü:
-
 Kameradan alınan görüntü HSV renk uzayına dönüştürülür.
 Cilt rengini temsil eden HSV renk aralığında maske oluşturulur.
 Morfolojik işlemlerle maske temizlenir.
