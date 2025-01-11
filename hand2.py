@@ -10,7 +10,7 @@ ix, iy = -1, -1  # Çizim başlangıç noktası
 
 # Mouse callback fonksiyonu
 def draw_circle(event, x, y, flags, param):
-    global ix, iy, drawing, img
+    global ix, iy, drawing
 
     # Produced By K. Umut Araz
 
@@ -34,32 +34,44 @@ while True:
     if not ret:
         break
 
-    # Çizim görüntüsünü oluştur
     img = np.zeros_like(frame)
-
-    # Çizim ve video akışını birleştir
     combined = cv2.addWeighted(frame, 0.7, img, 0.3, 0)
 
-    # Cilt rengi tespiti
+    # Ekranda göster
+    cv2.imshow('Drawing', combined)
+
+    # 'q' tuşuna basarak çıkış yap
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
+
+cap.release()
+cv2.destroyAllWindows()
+
+cap = cv2.VideoCapture(0)
+
+while True:
+    ret, frame = cap.read()
+    if not ret:
+        break
+
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
+
     lower_skin = np.array([0, 20, 70], dtype=np.uint8)
     upper_skin = np.array([20, 255, 255], dtype=np.uint8)
     mask = cv2.inRange(hsv, lower_skin, upper_skin)
-    
+
     # Maskeyi morfolojik işlemlerle temizle
-    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5,5), np.uint8))
-    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5,5), np.uint8))
-    
+    mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
+    mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
+
     # Maskeyi frame'e uygula
     result = cv2.bitwise_and(frame, frame, mask=mask)
 
-    # Pencerelerde göster
-    cv2.imshow('Drawing', combined)
+    # Ekranda göster
     cv2.imshow('Frame', frame)
     cv2.imshow('Mask', mask)
     cv2.imshow('Result', result)
 
-    # 'q' tuşuna basarak çıkış yap
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
 
