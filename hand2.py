@@ -5,7 +5,7 @@ import numpy as np
 cap = cv2.VideoCapture(0)
 
 # Renkler ve kalem kalınlığı ayarları
-drawing = False  # Çizim durumu
+drawing = False  
 ix, iy = -1, -1  
 
 # Mouse callback fonksiyonu
