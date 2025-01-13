@@ -6,7 +6,7 @@ cap = cv2.VideoCapture(0)
 
 # Renkler ve kalem kalınlığı ayarları
 drawing = False  # Çizim durumu
-ix, iy = -1, -1  # Çizim başlangıç noktası
+ix, iy = -1, -1  
 
 # Mouse callback fonksiyonu
 def draw_circle(event, x, y, flags, param):
