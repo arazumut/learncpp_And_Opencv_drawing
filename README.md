@@ -35,6 +35,7 @@
 9. Pozitif Sayıların Toplamını Bulma
    - Kullanıcıdan 10 adet tam sayı girmesi istenir.
    - Girilen sayılardan sadece pozitif olanların toplamı hesaplanır ve ekrana yazdırılır.
+   - 
 
 10. Negatif Sayıların Toplamını Bulma
     - Kullanıcıdan 15 adet tam sayı girmesi istenir.
