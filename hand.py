@@ -60,7 +60,7 @@ while True:
     upper_skin = np.array([20, 255, 255], dtype=np.uint8)
     mask = cv2.inRange(hsv, lower_skin, upper_skin)
 
-    # Maskeyi morfolojik işlemlerle temizle
+    
     mask = cv2.morphologyEx(mask, cv2.MORPH_CLOSE, np.ones((5, 5), np.uint8))
     mask = cv2.morphologyEx(mask, cv2.MORPH_OPEN, np.ones((5, 5), np.uint8))
 
