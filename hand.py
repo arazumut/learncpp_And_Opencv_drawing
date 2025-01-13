@@ -1,7 +1,7 @@
 import cv2
 import numpy as np
 
-# VideoCapture ile kameradan video akışını başlat
+
 cap = cv2.VideoCapture(0)
 
 # Renkler ve kalem kalınlığı ayarları
